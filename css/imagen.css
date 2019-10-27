@@ -1,0 +1,6 @@
+/* Especificidad = 1*/
+body {
+    background-image: url(../multimedia/imagenFondo.jpg);
+    background-repeat: no-repeat;
+    background-color: gray;
+}
