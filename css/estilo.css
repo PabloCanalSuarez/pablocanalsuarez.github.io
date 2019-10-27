@@ -51,7 +51,7 @@ p::first-letter {
 p>a {
     font-family: Arial,Helvetica,'Times New Roman', Times, serif;
     font-size: 0.9em;
-    color: red;
+    color: #107896;
 }
 /* Especificidad = 1*/
 img {
