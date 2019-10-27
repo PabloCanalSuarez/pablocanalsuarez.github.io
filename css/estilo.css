@@ -45,6 +45,8 @@ p,ul,ol,dl,table {
 }
 /* Especificidad = 1*/
 th {
+    font-family: Arial,Helvetica,'Times New Roman', Times, serif;
+    font-size: 0.9em;
     background-color:#107896;
     color:#f2f3f4;
 }
