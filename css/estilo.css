@@ -2,8 +2,8 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background-color:rgb(255, 223, 43); 
-    color:rgb(0, 0, 0)
+    background-color:#107896;
+    color:#f2f3f4;
 }
 /* Especificidad = 1*/
 h1,h3,h5 {
@@ -41,7 +41,7 @@ h6 {
 p,ul,ol,dl,table {
     font-family: Arial,Helvetica,'Times New Roman', Times, serif;
     font-size: 0.9em;
-    color: black;
+    color: #373d3f;
 }
 /* Especificidad = 2*/
 p::first-letter {
@@ -66,4 +66,8 @@ video {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+/* Especificidad = 1*/
+body {
+    background-color: #f2f3f4;
 }
