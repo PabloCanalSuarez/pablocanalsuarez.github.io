@@ -1,0 +1,73 @@
+/* Especificidad = 1*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color:#107896;
+    color:#f2f3f4;
+}
+/* Especificidad = 1*/
+h1,h3,h5 {
+    font-stretch: expanded;
+}
+/* Especificidad = 1*/
+h2,h4,h6 {
+    font-style: italic;
+}
+/* Especificidad = 1*/
+h1 {
+    font-size: 2em;
+}
+/* Especificidad = 1*/
+h2 {
+    font-size: 1.8em;
+}
+/* Especificidad = 1*/
+h3 {
+    font-size: 1.6em;
+}
+/* Especificidad = 1*/
+h4 {
+    font-size: 1.4em;
+}
+/* Especificidad = 1*/
+h5 {
+    font-size: 1.2em;
+}
+/* Especificidad = 1*/
+h6 {
+    font-size: 1em;
+}
+/* Especificidad = 1*/
+p,ul,ol,dl,table {
+    font-family: Arial,Helvetica,'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    color: #373d3f;
+}
+/* Especificidad = 1*/
+th {
+    font-family: Arial,Helvetica,'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    background-color:#107896;
+    color:#f2f3f4;
+}
+/* Especificidad = 2*/
+p::first-letter {
+    font-size: 1.3em;
+}
+/* Especificidad = 2*/
+li>a {
+    font-family: Arial,Helvetica,'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    color: #107896;
+}
+/* Especificidad = 1*/
+img,video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* Especificidad = 1*/
+body {
+    background-color: #f2f3f4;
+}
